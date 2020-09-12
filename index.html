@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+
+    <title>Music PWA</title>
+    <script
+      src="https://kit.fontawesome.com/54e9c89f82.js"
+      crossorigin="anonymous"
+    ></script>
+    <style>
+      body {
+        background-color: #0c2233;
+        color: #faf4ff;
+      }
+      figure {
+        margin: 10px;
+        border: 5px solid #ffc045;
+      }
+      hr {
+        border: 2px solid #ffc045;
+      }
+      video::cue {
+        background-color: red;
+        font-size: 125%;
+        font-family: cursive;
+      }
+    </style>
+    <link rel="manifest" href="manifest.json" />
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="images/pwa 3.png" />
+    <meta name="theme-color" content="#0C2233" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="#0C2233" />
+    <meta name="apple-mobile-web-app-title" content="Music PWA" />
+    <meta name="msapplication-TileImage" content="images/pwa 2.png" />
+    <meta name="msapplication-TileColor" content="#FFFFFF" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand"
+        ><i style="font-size: 50px;" class="fab fa-napster"></i
+      ></a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Home </a>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0" netlify>
+          <input
+            class="form-control mr-sm-2"
+            type="request any song"
+            placeholder="request any song"
+            aria-label="request any song"
+          />
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+            Submit
+          </button>
+        </form>
+      </div>
+    </nav>
+    <center>
+      <h2 style="color: #00fff5;">
+        Welcome to the Musical World
+        <i style="font-size: 50px;" class="fab fa-napster"></i>
+      </h2>
+
+      <br />
+
+      <figure>
+        <figcaption>
+          <h3>1. Genda Phool Song Badshah</h3>
+          <hr />
+        </figcaption>
+
+        <video
+          width="90%"
+          preload="metadata"
+          poster="Genda-Phool-Song-Badshah-Payal-Dev.jpg"
+          controls
+          src="Genda Phool Song Badshah Ft Payal Dev.mp3"
+        >
+          <track
+            src="genda.vtt"
+            label="English"
+            kind="captions"
+            srclang="en-us"
+            default
+          />
+        </video>
+      </figure>
+      <figure>
+        <figcaption>
+          <h3>2. Aa Jaana (Darshan Raval, Prakriti Kakar)</h3>
+          <hr />
+        </figcaption>
+
+        <video
+          width="90%"
+          preload="metadata"
+          poster="Aa-Jaana.jpg"
+          controls
+          src="Aa Jaana (Darshan Raval, Prakriti Kakar).mp3"
+        >
+          <track
+            src=""
+            label="English"
+            kind="captions"
+            srclang="en-us"
+            default
+          />
+        </video>
+      </figure>
+      <figure>
+        <figcaption>
+          <h3>3. Asal Mein Song By Darshan Raval</h3>
+          <hr />
+        </figcaption>
+
+        <video
+          width="90%"
+          preload="metadata"
+          poster="Asal Mein Song By Darshan Raval.jpg"
+          controls
+          src="Asal Mein Song By Darshan Raval.mp3"
+        >
+          <track
+            src=""
+            label="English"
+            kind="captions"
+            srclang="en-us"
+            default
+          />
+        </video>
+      </figure>
+      <figure>
+        <figcaption>
+          <h3>4. Baari - Bilal Saeed</h3>
+          <hr />
+        </figcaption>
+
+        <video
+          width="90%"
+          preload="metadata"
+          poster="Baari-Bilal-Saeed.jpg"
+          controls
+          src="Baari - Bilal Saeed.mp3"
+        >
+          <track
+            src=""
+            label="English"
+            kind="captions"
+            srclang="en-us"
+            default
+          />
+        </video>
+      </figure>
+      <figure>
+        <figcaption>
+          <h3>5. Bhula Diya</h3>
+          <hr />
+        </figcaption>
+
+        <video
+          width="90%"
+          preload="metadata"
+          poster="Bhula-Diya.jpg"
+          controls
+          src="Bhula Diya.mp3"
+        >
+          <track
+            src=""
+            label="English"
+            kind="captions"
+            srclang="en-us"
+            default
+          />
+        </video>
+      </figure>
+      <figure>
+        <figcaption>
+          <h3>6. Daily Daily</h3>
+          <hr />
+        </figcaption>
+
+        <video
+          width="90%"
+          preload="metadata"
+          poster="Daily-Daily.jpg"
+          controls
+          src="Daily Daily.mp3"
+        >
+          <track
+            src=""
+            label="English"
+            kind="captions"
+            srclang="en-us"
+            default
+          />
+        </video>
+      </figure>
+      <figure>
+        <figcaption>
+          <h3>7. Dil Ko Tujhpe Pyaar (Never Kiss Your Best Friend)</h3>
+          <hr />
+        </figcaption>
+
+        <video
+          width="90%"
+          preload="metadata"
+          poster="dil-ko-tujhpe-pyaar.jpg"
+          controls
+          src="Dil Ko Tujhpe Pyaar (Never Kiss Your Best Friend).mp3"
+        >
+          <track
+            src=""
+            label="English"
+            kind="captions"
+            srclang="en-us"
+            default
+          />
+        </video>
+      </figure>
+      <figure>
+        <figcaption>
+          <h3>8. Manjha</h3>
+          <hr />
+        </figcaption>
+
+        <video
+          width="90%"
+          preload="metadata"
+          poster="Manjha.jpg"
+          controls
+          src="Manjha.mp3"
+        >
+          <track
+            src=""
+            label="English"
+            kind="captions"
+            srclang="en-us"
+            default
+          />
+        </video>
+      </figure>
+      <figure>
+        <figcaption>
+          <h3>9. Nai Lagda</h3>
+          <hr />
+        </figcaption>
+
+        <video
+          width="90%"
+          preload="metadata"
+          poster="Nai Lagda.jpg"
+          controls
+          src="Nai Lagda.mp3"
+        >
+          <track
+            src=""
+            label="English"
+            kind="captions"
+            srclang="en-us"
+            default
+          />
+        </video>
+      </figure>
+      <figure>
+        <figcaption>
+          <h3>10. Afreen Afreen - Rahat Fateh Ali Khan & Momina Mustehsan</h3>
+          <hr />
+        </figcaption>
+
+        <video
+          width="90%"
+          preload="metadata"
+          poster="Afreen Afreen - Rahat Fateh Ali Khan & Momina Mustehsan.jpg"
+          controls
+          src="Afreen Afreen - Rahat Fateh Ali Khan & Momina Mustehsan.mp3"
+        >
+          <track
+            src=""
+            label="English"
+            kind="captions"
+            srclang="en-us"
+            default
+          />
+        </video>
+      </figure>
+      <figure>
+        <figcaption>
+          <h3>11. Pyaar Tenu Karda Gabru</h3>
+          <hr />
+        </figcaption>
+
+        <video
+          width="90%"
+          preload="metadata"
+          poster="Pyaar Tenu Karda Gabru.jpg"
+          controls
+          src="Pyaar Tenu Karda Gabru.mp3"
+        >
+          <track
+            src=""
+            label="English"
+            kind="captions"
+            srclang="en-us"
+            default
+          />
+        </video>
+      </figure>
+      <figure>
+        <figcaption>
+          <h3>12. Mere Liye Tum Kaafi Ho</h3>
+          <hr />
+        </figcaption>
+
+        <video
+          width="90%"
+          preload="metadata"
+          poster="Mere-Liye-Tum-Kaafi-Ho.jpg"
+          controls
+          src="Mere Liye Tum Kaafi Ho.mp3"
+        >
+          <track
+            src=""
+            label="English"
+            kind="captions"
+            srclang="en-us"
+            default
+          />
+        </video>
+      </figure>
+      <figure>
+        <figcaption>
+          <h3>13. Dil Royi Jaye</h3>
+          <hr />
+        </figcaption>
+
+        <video
+          width="90%"
+          preload="metadata"
+          poster="Dil Royi Jaye.jpg"
+          controls
+          src="Dil Royi Jaye.mp3"
+        >
+          <track
+            src=""
+            label="English"
+            kind="captions"
+            srclang="en-us"
+            default
+          />
+        </video>
+      </figure>
+      <figure>
+        <figcaption>
+          <h3>14. Tu Mila To Haina</h3>
+          <hr />
+        </figcaption>
+
+        <video
+          width="90%"
+          preload="metadata"
+          poster="Tu Mila To Haina.jpg"
+          controls
+          src="Tu Mila To Haina.mp3"
+        >
+          <track
+            src=""
+            label="English"
+            kind="captions"
+            srclang="en-us"
+            default
+          />
+        </video>
+      </figure>
+      <figure>
+        <figcaption>
+          <h3>15. Duji Vaar Pyar (Sunanda Sharma)</h3>
+          <hr />
+        </figcaption>
+
+        <video
+          width="90%"
+          preload="metadata"
+          poster="Duji-Vaar-Pyar.jpg"
+          controls
+          src="Duji Vaar Pyar (Sunanda Sharma).mp3"
+        >
+          <track
+            src=""
+            label="English"
+            kind="captions"
+            srclang="en-us"
+            default
+          />
+        </video>
+      </figure>
+      <!-- Footer -->
+      <footer class="page-footer font-small special-color-dark pt-4">
+        <!-- Footer Elements -->
+        <div class="container">
+          <!-- Social buttons -->
+          <h2>Contact Us:-</h2>
+          <ul class="list-unstyled list-inline text-center">
+            <li class="list-inline-item">
+              <a
+                class="btn-floating btn-fb mx-1"
+                href="https://www.instagram.com/geeky_bharat99/"
+              >
+                <i class="fa fa-instagram fa-5x"></i>
+              </a>
+            </li>
+          </ul>
+          <!-- Social buttons -->
+        </div>
+        <!-- Footer Elements -->
+
+        <!-- Copyright -->
+        <div class="footer-copyright text-center py-3">
+          © 2020 Copyright - All Rights Reserved.
+        </div>
+        <h1>Made With <span style="color: red;">❤</span> By Bharat Tiwari.</h1>
+        <!-- Copyright -->
+      </footer>
+      <!-- Footer -->
+    </center>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script>
+      document.addEventListener(
+        "play",
+        function(e) {
+          var videos = document.getElementsByTagName("video");
+          for (var i = 0, len = videos.length; i < len; i++) {
+            if (videos[i] != e.target) {
+              videos[i].pause();
+            }
+          }
+        },
+        true
+      );
+    </script>
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+    <script src="main.js"></script>
+  </body>
+</html>

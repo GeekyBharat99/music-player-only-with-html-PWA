@@ -1,0 +1,41 @@
+{
+  "name": "Music PWA",
+  "short_name": "Music",
+  "icons": [
+    {
+      "src": "images/pwa 1.png",
+      "sizes": "128x128",
+      "type": "image/png"
+    },
+    {
+      "src": "images/pwa 2.png",
+      "sizes": "144x144",
+      "type": "image/png"
+    },
+    {
+      "src": "images/pwa 3.png",
+      "sizes": "152x152",
+      "type": "image/png"
+    },
+    {
+      "src": "images/pwa 4.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "images/pwa 5.png",
+      "sizes": "256x256",
+      "type": "image/png"
+    },
+    {
+      "src": "images/pwa 6.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "lang": "en-US",
+  "start_url": "index.html",
+  "display": "standalone",
+  "background_color": "#0C2233",
+  "theme_color": "#0C2233"
+}
